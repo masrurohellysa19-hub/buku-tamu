@@ -31,11 +31,21 @@
       text-align: center;
       margin-bottom: 20px;
     }
+
+    /* Ukuran Logo Standar (Desktop/Laptop) */
     .logo {
-      width: 12px;
+      width: 120px;
       height: auto;
       margin-bottom: 12px;
     }
+
+    /* Ukuran Logo Khusus Layar HP */
+    @media (max-width: 480px) {
+      .logo {
+        width: 140px; /* Diperbesar agar jelas di HP */
+      }
+    }
+
     .header h1 {
       font-size: 22px;
       color: #1e293b;
@@ -108,7 +118,7 @@
   <div class="container">
     <div class="header">
       <!-- Tag Gambar Logo -->
-     <img src="logo.jpg" alt="Logo SMK As-Syafi'iyah" class="logo">
+      <img src="logo.jpg" alt="Logo SMK As-Syafi'iyah" class="logo">
       <h1>Buku Tamu Digital</h1>
       <p>Silakan isi formulir kehadiran di bawah ini</p>
     </div>
