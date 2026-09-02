@@ -31,6 +31,11 @@
       text-align: center;
       margin-bottom: 20px;
     }
+    .logo {
+      width: 90px;
+      height: auto;
+      margin-bottom: 12px;
+    }
     .header h1 {
       font-size: 22px;
       color: #1e293b;
@@ -102,6 +107,8 @@
 
   <div class="container">
     <div class="header">
+      <!-- Tag Gambar Logo -->
+      <img src="logo.jpg" alt="Logo SMK As-Syafi'iyah" class="logo">
       <h1>Buku Tamu Digital</h1>
       <p>Silakan isi formulir kehadiran di bawah ini</p>
     </div>
@@ -145,7 +152,6 @@
   </div>
 
   <script>
-    // GANTI PASTE_URL_WEB_APP_BARU_DI_SINI DENGAN URL WEB APP HASIL DEPLOY APPS SCRIPT BARU
     const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzA1sZWAva7YUSxvUzaUWPEt5LH7R4IlRIePdPuJ624NSdw90Z7xlKjbNZ_74zkyGbI/exec";
 
     document.getElementById('guestForm').addEventListener('submit', function(e) {
